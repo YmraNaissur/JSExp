@@ -4,8 +4,23 @@
 	</head>
 	
 	<body>
+		<input type="text" id="pName">
+		<input type="text" id="pAge">
+		<button onclick="showPersonDetails(createNewPerson(pName.value, pAge.value))">
+			Create
+		</button>
 		
+		<p id="personDetails"></p>
 		
 		<script src="scripts.js"></script>
+		
+		<h3>Homework</h3>
+		<script>
+			var user = {};
+			user.name = 'Вася';
+			user.surname = 'Петров';
+			user.name = 'Сергей';
+			delete user.name;
+		</script>
 	<body>
 </html>
